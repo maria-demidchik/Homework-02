@@ -70,6 +70,7 @@ select {
     font-size: 16px;
     background-image: url("./assets/images/ep_arrow-down.svg") right 10px top 50%;
     background-repeat: no-repeat;
+    background-position: right 10px center;
     appearance: none;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
@@ -90,7 +91,7 @@ select {
     list-style-image: url("./assets/images/Vector.png");
     font-weight: 400;
     font-size: 16px;
-    margin-bottom: 0 20px;
+    margin: 0 20px;
     padding: 0 20px;
 }
 
@@ -99,7 +100,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    margin-bottom: 0 20px;
+    margin: 0 20px;
     padding: 0 20px;
 }
 
@@ -115,7 +116,7 @@ select {
     border-radius: 5px;
     width: 330px;
     height: 36px;
-    padding: 9px 0 8px 12px;
+    padding: 9px 12px;
     font-weight: 400;
     font-size: 16px;
 }
